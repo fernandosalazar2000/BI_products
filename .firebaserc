@@ -1,0 +1,9 @@
+{
+  "projects": { "default": "chz-bi-cmf-firebase-bde08" },
+  "targets": {
+    "chz-bi-cmf-firebase-bde08": {
+      "hosting": { "biproducts": ["biproductscmf"] },
+      "storage": { "biproducts": ["<nuevo-bucket>"] }
+    }
+  }
+}
