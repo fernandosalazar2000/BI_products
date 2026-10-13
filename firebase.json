@@ -1,0 +1,8 @@
+{
+  "hosting": [
+    { "target": "biproducts", "public": "public", "ignore": ["firebase.json", "**/.*"] }
+  ],
+  "storage": [
+    { "target": "biproducts", "rules": "storage.rules" }
+  ]
+}
