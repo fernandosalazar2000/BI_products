@@ -809,7 +809,8 @@ render();
 // (uno por fuente) y alinea los estados con las gestiones antes de dibujar.
 (async function () {
   const BUCKET = "chz-bi-cmf-firebase-bde08";
-  const url = f => "https://firebasestorage.googleapis.com/v0/b/" + BUCKET + "/o/" + encodeURIComponent(f) + "?alt=media";
+  const CARPETA = "SAC";
+  const url = f => "https://firebasestorage.googleapis.com/v0/b/" + BUCKET + "/o/" + encodeURIComponent(CARPETA + "/" + f) + "?alt=media";
   const gate = document.getElementById("gate"), msg = document.getElementById("gateMsg");
 
   async function bajar(archivo) {
